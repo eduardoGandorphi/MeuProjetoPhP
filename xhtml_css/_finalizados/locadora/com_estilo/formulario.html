@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html 
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title> Formulário - Locadora Muito Legal</title>
+
+<link href="estilo_locadora.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="total">
+
+  <div id="conteudo">
+
+  <h2><img src="titulo_formulario.jpg" alt="formulário de interesse" /></h2>
+
+  <form action="obrigado.html" method="post" name="interesse" id="interesse">
+
+  <fieldset>
+
+  <legend>Dados Pessoais</legend>
+  <p>
+  <label for="nome">Nome: </label>
+  <input type="text" name="nome" id="nome" />
+  </p>
+
+  <p>
+  <label for="email">E.mail: </label>
+  <input type="text" name="email" id="email" />
+  </p>
+
+  </fieldset>
+
+
+  <fieldset>
+
+  <legend>Informações</legend>
+  <p>
+  <label for="depto">Enviar para departamento: </label>
+  <select name="depto" id="depto">
+  <option>escolha sua opção</option>
+  <option value="fin">financeito</option>
+  <option value="tec">técnico</option>
+  <option value="adm">administrativo</option>
+  <option value="att">atendimento</option>
+  </select>
+  </p>
+
+  <p>
+  Tipo: <br />
+  <input type="radio" name="tipo" value="pf" id="pf" /> 
+  <label for="pf">pessoa física</label>
+  <br />
+  <input type="radio" name="tipo" value="pj" id="pj" />
+  <label for="pj">pessoa jurídica</label>
+  </p>
+
+  <p>
+  Informativo: <br />
+  <input type="checkbox" name="info_mensal" id="info_mensal" value="sim" />
+  <label for="info_mensal">Quero receber o informativo mensal</label>
+  <br />
+  <input type="checkbox" name="info_patro" id="info_patro" value="sim" />
+  <label for="info_patro">Quero receber informações dos patrocinadores</label>
+  </p>
+
+  <p>
+  <label for="mensagem">Mensagem: </label>
+  <br /> 
+  <textarea cols="50" rows="5" name="mensagem" id="mensagem"></textarea>
+  </p>
+
+  </fieldset>
+
+  <p>&nbsp;</p>
+
+  <p>
+  <input type="reset" name="Submit2" value="Limpar dados" />
+  </p>
+
+  <p>
+  <input type="submit" name="Submit" value="Enviar formulário" />
+  </p>
+
+  </form>
+
+  </div> <!-- fechamento div conteudo -->
+  
+  <div id="endereco">
+
+    <p>rua dr. vila nova, 228 • são paulo<br />
+    tel 11 1234 5678</p>
+
+  </div> <!-- fechamento div endereco -->
+  
+</div> <!-- fechamento div total -->
+
+</body>
+
+</html>

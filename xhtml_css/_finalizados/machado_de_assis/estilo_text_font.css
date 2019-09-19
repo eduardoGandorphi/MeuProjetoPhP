@@ -1,0 +1,22 @@
+﻿body {
+font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+font-size: 50px;
+font-style: italic;
+font-variant: small-caps;
+font-weight: normal;
+}
+
+h1, h2, h3, h5 {
+color: #59cc0d;
+}
+
+p {
+color: #e85305;
+line-height: 1.3em;
+text-align: justify;
+text-indent: 2em;
+}
+

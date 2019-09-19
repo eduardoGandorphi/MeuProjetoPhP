@@ -1,0 +1,28 @@
+table {
+	width: 700px;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+caption {
+	caption-side: top;
+	background-color: #036;
+	color:#FFF;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 20px;
+}
+
+th {
+	background-color: #036;
+	text-transform: uppercase;
+	color:#FFF;
+	font-size: 18px;
+	font-weight: bolder;
+	border: solid thin #fff;
+	vertical-align: text-top;
+}
+td {
+	text-align: center;
+	border: solid thin #036;
+}

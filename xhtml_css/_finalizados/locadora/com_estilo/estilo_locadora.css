@@ -1,0 +1,103 @@
+﻿
+
+/* corpo da página com atribuições genéricas */
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #000;
+background-color:#000;
+}
+
+/* caixa total centralizada */
+#total {
+position:relative;
+margin: auto;
+width: 720px;
+}
+
+/* logotipo superior e conteúdo principal */
+#conteudo {
+position:absolute;
+width: 700px;
+padding-top: 250px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+background-color: #fff;
+background-image: url(locadora.jpg);
+background-repeat: no-repeat;
+background-position: 10px 10px;
+}
+
+/* conteúdo do lado direito/superior - endereço */
+#endereco {
+position:absolute;
+width: 400px;
+height: 80px;
+margin-top: 40px;
+margin-left: 300px;
+font-size: 11px;
+font-weight: bolder;
+color: #FFF;
+text-align: right;
+line-height: 20px;
+}
+
+/* estilos para o formulário */
+fieldset {
+border: thin solid #666;
+padding: 7px;
+}
+legend {
+font-size: 11px;
+font-weight: bolder;
+color: #666;
+}
+label {
+color: #900;
+}
+#nome, #email {
+border-bottom-width: medium;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: solid;
+border-left-style: none;
+border-bottom-color: #666;
+width: 400px;
+}
+#mensagem {
+border: 1px solid #666;
+width: 450px;
+}
+input[type="submit"], input[type="reset"] {
+background-color: #CCC;
+width: 150px;
+border: 3px solid #666;
+cursor: pointer;
+}
+
+/* estilos para a tabela */
+table {
+border-collapse:collapse;
+border: thin solid #666;
+width: 700px;
+}
+caption {
+color:#900;
+font-size: 20px;
+font-variant:small-caps;
+background-color:#ccc;
+font-weight:bolder;
+border: thin solid #666;
+padding: 7px;
+caption-side: bottom;
+}
+th, td {
+border: thin solid #666;
+padding: 7px;
+}
+th {
+background-color:#ccc;
+}
+tr:hover {
+background-color:#FF6;
+}

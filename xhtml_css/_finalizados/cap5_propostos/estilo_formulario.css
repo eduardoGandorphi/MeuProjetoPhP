@@ -1,0 +1,43 @@
+body {
+	width: 700px;
+	margin: auto;
+}
+
+h1 {
+	color: #909;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #909;
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+form {
+	background-color: #FFF;
+	background-image: url(form1_back.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 100px;
+}
+
+fieldset {
+	border: 3px solid #FCC;
+	padding: 10px;
+}
+
+label {
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+input, textarea {
+	background-color: #FCC;
+	width: 450px;
+	border: none;
+}
+
+input[type=submit] {
+	width: 100px;
+	margin-left: 15px;
+}

@@ -1,0 +1,124 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: auto;
+	width: 45em; /*720px*/
+	font-family: Tahoma, Geneva, sans-serif;
+}
+/*caixas*/
+#cabecalho {
+	text-align: center;
+	background-color: #000;
+	margin-bottom: 1em;
+}
+#cabecalho img {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+#menu {
+	width: 6.25em; /*100px*/
+	float: left;
+	/*overflow: auto;*/
+}
+#principal {
+	width: 28.125em; /*450px490*/
+	float: left;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+#noticias {
+	width: 10.156em; /*130px - 0.8x16 = 12.8*/
+	float: right;
+	font-size: 0.8em;
+}
+#endereco {
+	clear: both;
+	background-color: #000;
+	color: #FFF;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.06em;
+	word-spacing: 0.2em;
+	padding: 0.2em;
+}
+
+/*menu*/
+#menu li {
+	list-style-type: none;
+}
+#menu li a {
+	font-size: 0.8em;
+	font-weight: bolder;
+	display:block;
+	text-decoration:none;
+	padding-top: 0.8em;
+	padding-left: 0.5em;
+	border-bottom: 0.1em solid #000;
+}
+#menu li a:link, #menu li a:visited {
+	color: #000;
+}
+#menu li a:hover {
+	color: #fff;
+	background-color:#000;
+}
+
+/*área principal - textos */
+#principal h1 {
+	border-bottom: solid 0.1em #000;
+}
+#principal h2{
+	font-size:0.8em;
+	text-align: right;
+	padding: 0.3em;
+	margin-bottom: 1em;
+}
+#principal p{
+	line-height: 1.4em;
+	text-align: justify;
+}
+#principal h2+p{
+	width: 17em; /*300px/17.6 16x1.1=17.6*/
+	font-size: 1.1em;
+	font-style:italic;
+	text-align: left;
+	margin-bottom: 2em;
+}
+#principal img {
+	float:left;
+	padding-right: 1.5em;
+}
+
+/*área notícias*/
+#noticias h3 {
+	margin-bottom: 0.5em;
+	border-top: solid 0.06em #000;
+	text-align: right;
+}
+#noticias p {
+	line-height: 1.2em;
+	padding-bottom: 0.8em;
+	margin-bottom: 2em;
+}
+#noticias h3+p{
+	color: #900;
+	padding: 0;
+	margin: 0;
+}
+#noticias a{
+	text-decoration: none;
+	text-align: right;
+	display: block;
+	margin-top: 0.2em;
+	padding: 0.1em;
+}
+#noticias a:link, #noticias a:visited {
+	color: #900;
+}
+#noticias a:hover {
+	color: #000;
+	background-color: #CCC;
+}

@@ -1,0 +1,33 @@
+﻿* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Tahoma, Arial, sans-serif;
+background-color: #8C651C;
+}
+#conteudo {
+margin: auto;
+width: 70%;
+padding: 3%;
+background-color: #6F9ABF;
+}
+.topicos {
+padding: 5%;
+margin: 3%;
+background: #9CC1D9 url('back_topicos.gif') no-repeat top left;
+height: 200px;
+overflow: auto;
+}
+.destaque {
+background-color: #fff;
+color: #92171A;
+font-weight: bolder;
+}
+h2, h3 {
+margin-top: 5%;
+margin-bottom: 3%;
+}
+p {
+text-align: justify;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html 
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title> Formulário Completo </title>
+
+</head>
+
+<body>
+
+<form action="" method="post" name="dadospessoais">
+
+<fieldset>
+<legend> Dados Pessoais </legend>
+
+<p>
+    <label for="nome">Nome: </label>
+    <input type="text" name="nome" id="nome" />
+</p>
+
+<p>
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email" />
+</p>
+
+<p>
+    Sexo: <br />
+    <input type="radio" name="sexo" value="fem" id="sexfem" /> 
+    <label for="sexfem">feminino</label>
+    <br />
+    <input type="radio" name="sexo" value="masc" id="sexmasc" />
+    <label for="sexmasc">masculino</label>
+</p>
+
+</fieldset>
+
+
+<fieldset>
+<legend> Dados Escolares</legend>
+
+<p>
+    <label for="idade">Idade: </label>
+    <select name="idade" id="idade">
+      <option>escolha sua idade</option>
+      <option value="menor">menor de 18 anos</option>
+      <option value="maior">maior de 18 anos</option>
+    </select>
+</p>
+
+<p>
+    <label for="escolaridade">Escolaridade: </label>
+    <select name="escolaridade" id="escolaridade" size="3">
+      <option value="superior">superior</option>
+      <option value="segundo_grau">segundo grau</option>
+      <option value="primeiro_grau">primeiro grau</option>
+      <option value="outros">outros</option>
+    </select>
+  </p>
+
+</fieldset>
+
+<fieldset>
+<legend> Opt-in </legend>
+
+<p>
+    Informativo: <br />
+    <input type="checkbox" name="info_mensal" id="info_mensal" value="sim" />
+    <label for="info_mensal">Quero receber o informativo mensal</label>
+    <br />
+    <input type="checkbox" name="info_patro" id="info_patro" value="sim" />
+    <label for="info_patro">Quero receber informações dos patrocinadores</label>
+</p>
+
+</fieldset>
+
+<p>
+    <input type="reset" name="Submit2" value="Limpar dados" />
+</p>
+
+<p>
+    <input type="submit" name="Submit" value="Enviar formulário" />
+</p>
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+﻿body {
+font-family: Verdana, Arial, sans-serif;
+line-height: 1.5em;
+background-image: url(back_geral.gif);
+background-color: #FFC936;
+}
+
+ul {
+background-image: url(back_lista.gif);
+background-repeat: no-repeat;
+background-position: top right;
+background-color: #FFC936;
+}
+
+ul li {
+list-style-image: url(item_lista.gif);
+list-style-position: inside;
+}

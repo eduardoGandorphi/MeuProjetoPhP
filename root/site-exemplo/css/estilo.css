@@ -1,0 +1,128 @@
+*{
+    font-family: Tahoma, Verdana, Arial, sans-serif;   
+}
+div, header, main, footer, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    display: inline-block;
+    width: 100%;
+}
+
+header {
+    max-height: 200px;
+
+}
+header > div {
+    width: 30%;
+    display: inline-block;
+}
+header > nav {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+}
+header > nav > ul {
+    list-style: none;
+}
+header > nav > ul > li {
+    display: inline-block;
+}
+header > nav > ul > li > a {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: #669932;
+    text-decoration: none;
+}
+header > nav > ul > li > a:hover {
+    background-color: #99cb35;
+}
+
+main {
+    border-radius: 15px;
+    background-color: #dbecb9;
+    margin: 15px;
+    padding: 15px;
+    width: 93%;
+}
+
+footer {
+    height: 100px;
+}
+footer > div {
+    display: inline-block;
+    width: 49%;
+}
+footer > div:nth-child(n+2) {
+    text-align: right;
+}
+footer > nav {
+    margin-top: 20px    ;
+    width: 99%;
+    display: inline-block;
+    text-align: center  ;
+}
+footer > nav > ul {
+    list-style: none;
+}
+footer > nav > ul > li {
+    display: inline-block;
+    
+}
+footer > nav > ul > li > a
+{
+    color: #669932;
+}
+
+form div{
+    padding: 5px;
+}
+form label {
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+}
+form input, form textarea {
+    width: 98.5%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #669932 solid;
+}
+form input:focus, form textarea:focus, form button:focus {
+    box-shadow: 0px 0px 7px 4px #99cb35;
+}
+form > div:last-child{
+    text-align: center;
+}
+form button {
+    color: white;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px 5px;
+    border: 1px #669932 solid;  
+    background-color: #669932; 
+    cursor: pointer;
+}
+form button:hover {
+    color: #000;
+    background-color: #99cb35;
+}
+
+#portfolio > div {
+    max-width: 33%;
+    display: inline-block;
+}
+
+footer {
+    
+}

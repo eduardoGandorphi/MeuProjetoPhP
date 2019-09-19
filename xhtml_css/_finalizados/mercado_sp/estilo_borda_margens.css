@@ -1,0 +1,43 @@
+﻿body {
+background-color: #000;
+color: #fff;
+margin-left: 10em;
+}
+
+h1 {
+border-bottom: thin dotted #fff;
+margin-left: -5em;
+padding-left: 5em;
+}
+
+a img {
+border: none;
+padding: 0;
+}
+
+img {
+border: 10px solid #fff;
+padding: 20px;
+}
+
+a {
+font-family: arial, sans-serif;
+font-weight: bolder;
+text-decoration: none;
+}
+
+a:link {
+color: #fff;
+background-color: #3B4758;
+}
+
+a:visited {
+color: #3B4758;
+background-color: #99B9E4;
+}
+
+a:hover {
+color: #3B4758;
+background-color: #fff;
+}
+

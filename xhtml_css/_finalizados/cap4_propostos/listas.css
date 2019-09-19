@@ -1,0 +1,20 @@
+﻿body {
+	background-color: #FFF0A5;
+	margin: 75px;
+	line-height: 1.3em;
+}
+h2, h4 {
+	color: #8E2800;
+}
+ol, ul, dl {
+	color: #468966;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #468966;
+	padding: 10px;
+	list-style-position:inside;
+}
+
+ol, ul {
+	margin-left: 0px;
+}

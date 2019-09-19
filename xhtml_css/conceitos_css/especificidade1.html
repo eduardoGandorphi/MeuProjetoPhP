@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>dois estilos class</title>
+<style type="text/css">
+<!--
+li {
+	color: #0F0;
+}
+.carro li  {
+	color:#F0F;
+}
+.carro li.novo {
+	color:#F00;
+}
+#obrigatorio li {
+	color:#F60;
+}
+-->
+</style>
+</head>
+
+<body>
+<p>Carros</p>
+<ul class="carro">
+  <li class="novo">carro 1 [novo]</li>
+  <li>carro 2</li>
+  <li class="novo">carro 3 [novo]</li>
+  <li>carro 4</li>
+  <li>carro 5</li>
+  <li class="novo">carro 6 [novo]</li>
+  <li>carro 7</li>
+</ul>
+<p>&nbsp;</p>
+<p>Acessórios</p>
+<ul>
+  <li>acessório 1</li>
+  <li>acessório 2</li>
+  <li>acessório 3</li>
+  <li>acessório 4</li>
+</ul>
+<p>&nbsp;</p>
+<p>Itens obrigatórios</p>
+<ul id="obrigatorio">
+  <li>item 1</li>
+  <li>item 2</li>
+  <li style="color:#00F;">item 3 - superobrigatório</li>
+  <li>item 4</li>
+</ul>
+</body>
+</html>
