@@ -1,4 +1,4 @@
-<!-- http://localhost:8080/site-exemplo/-->
+﻿<!-- http://localhost:8080/site-exemplo/-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -39,7 +39,7 @@
   <body class="text-center">
     <form class="form-signin" action="login_action.php" method="post">
   <img class="mb-4" src="../img/logo.png" alt="" height="150">
-  <h1 class="h3 mb-3 font-weight-normal">Por favor, informe suas credenciais [DEV]</h1>
+  <h1 class="h3 mb-3 font-weight-normal">Por favor, informe suas credenciais[Master-dev]</h1>
   <label for="inputEmail" class="sr-only">Email</label>
   <input type="email" id="inputEmail" class="form-control" placeholder="Email" name="Email" required autofocus>
   <label for="inputPassword" class="sr-only">Senha</label>
