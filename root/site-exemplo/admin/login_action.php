@@ -9,11 +9,10 @@
     var_dump($Usu);
 
     if($Usu != null) 
-    {      
+    {       
         session_start();
         $_SESSION["Usuario"] = $_POST["Email"];        
         $_SESSION["Nome"] = $Usu->Nome;       
-        
         
         echo $_SESSION["Nome"];
         header("location: index.php");
